@@ -13,7 +13,7 @@ public class Main {
         //Create a new object from the class using overloaded method
         WithoutGenerics withoutGenerics = new WithoutGenerics();
 
-        //Passed each data list to the printMyList overloaded methods
+        //Pass each data list to the printMyList overloaded methods
         withoutGenerics.printMyList(myIntegers); //output: 1 2 3 4 5
         withoutGenerics.printMyList(myCharacters); //output: a b c d e
         withoutGenerics.printMyList(myStrings); //output: cat dog fox goat elephant
@@ -22,7 +22,7 @@ public class Main {
         //Create a new object from the class using generic method
         WithGenerics withGenerics = new WithGenerics();
 
-        //Passed each data list to the single printMyList generic method
+        //Pass each data list to the single printMyList generic method
         withGenerics.printMyList(myIntegers); //output: 1 2 3 4 5
         withGenerics.printMyList(myCharacters); //output: a b c d e
         withGenerics.printMyList(myStrings); //output: cat dog fox goat elephant
