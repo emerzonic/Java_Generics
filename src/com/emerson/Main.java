@@ -3,7 +3,7 @@ package com.emerson;
 public class Main {
 
     public static void main(String[] args) {
-        //Different data list to be passed to methods
+        //Different data lists to be passed to methods
         Integer[] myIntegers = {1,2,3,4,5};
         Character[] myCharacters = {'a','b','c','d','e'};
         String[] myStrings = {"cat", "dog", "fox", "goat", "elephant"};
