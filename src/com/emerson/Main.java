@@ -1,5 +1,8 @@
 package com.emerson;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,7 +13,7 @@ public class Main {
         Double[] myDoubles = {0.0, 1.0, 2.25, 3.876, 765.34};
 
 
-        //Create a new object from the class using overloaded method
+        //Create a new object from the class using overloaded methods
         WithoutGenericMethod withoutGenerics = new WithoutGenericMethod();
 
         //Pass each data list to the printMyList overloaded methods
