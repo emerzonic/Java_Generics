@@ -11,7 +11,7 @@ public class Main {
 
 
         //Create a new object from the class using overloaded method
-        WithoutGenericsMethod withoutGenerics = new WithoutGenericsMethod();
+        WithoutGenericMethod withoutGenerics = new WithoutGenericMethod();
 
         //Pass each data list to the printMyList overloaded methods
         withoutGenerics.printMyList(myIntegers); //output: 1 2 3 4 5
@@ -20,7 +20,7 @@ public class Main {
         withoutGenerics.printMyList(myDoubles); //output: 0.0 1.0 2.25 3.876 765.34
 
         //Create a new object from the class using generic method
-        WithGenericsMethod withGenerics = new WithGenericsMethod();
+        WithGenericMethod withGenerics = new WithGenericMethod();
 
         //Pass each data list to the single printMyList generic method
         withGenerics.printMyList(myIntegers); //output: 1 2 3 4 5

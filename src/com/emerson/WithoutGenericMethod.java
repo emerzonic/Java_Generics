@@ -1,6 +1,6 @@
 package com.emerson;
 
-public class WithoutGenericsMethod {
+public class WithoutGenericMethod {
 
     //An overloaded method that accepts only integer list types
     public void printMyList(Integer[] list) {

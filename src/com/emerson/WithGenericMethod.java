@@ -1,6 +1,6 @@
 package com.emerson;
 
-public class WithGenericsMethod {
+public class WithGenericMethod {
 
 
     //A generic method that accepts multiple list types
