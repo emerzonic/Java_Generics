@@ -1,1 +1,1 @@
-### DRY with Java Generics
+### DRY with Java Generics Methods
