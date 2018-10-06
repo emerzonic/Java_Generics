@@ -1,6 +1,6 @@
 package com.emerson;
 
-public class WithoutGenerics {
+public class WithoutGenericsMethod {
 
     public void printMyList(Integer[] list) {
         for (Integer i : list)

@@ -1,6 +1,6 @@
 package com.emerson;
 
-public class WithGenerics {
+public class WithGenericsMethod <T> {
 
     public <T> void printMyList(T[] list) {
         for (T i : list)
